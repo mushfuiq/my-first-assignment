@@ -3,6 +3,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .banner-container {
     width: 1920px;
     height: 850px;
@@ -27,6 +42,7 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -35,4 +51,73 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+}
+
+/* main section style */
+main {
+    max-width: 1920px;
+
+}
+
+.flower {
+    padding-bottom: 100px;
+}
+
+/*  section style */
+/* .image-section {
+    width: 1920px;
+    height: 4867px; */
+
+.back-img {
+    background-image: url(../images/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    /* padding: 60px 60px 0 60px; */
+}
+
+.back-img2 {
+    background-image: url(../images/Rectangle1.png);
+    background-repeat: no-repeat;
+}
+
+.back-img3 {
+    background-image: url(../images/Rectangle2.png);
+    background-repeat: no-repeat;
+}
+
+.image-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 150px;
+}
+
+.Hot-Deal {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+#shop {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+
+}
+
+.hd {
+    padding: 150px;
+}
+
+#png {
+    width: 318px;
+    height: 420px;
 }
